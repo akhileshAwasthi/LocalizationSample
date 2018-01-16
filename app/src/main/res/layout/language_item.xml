@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_language"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="12dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#0000FF"
+    android:textSize="26sp"
+    tools:text="@string/app_name" />

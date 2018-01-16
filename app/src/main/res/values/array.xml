@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="list_lang_entries" translatable="false">
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+
+    <string-array name="list_lang_values" translatable="false">
+        <item>en</item>
+        <item>hi</item>
+    </string-array>
+
+
+
+</resources>

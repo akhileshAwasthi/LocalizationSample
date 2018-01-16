@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/language_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_lang_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp"
+        android:textColor="#000000"
+        android:textCursorDrawable="@null"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:text="@string/txt_select_lang_one"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/langList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab_set_lang"
+        android:layout_below="@+id/text_lang_title"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+
+        android:choiceMode="singleChoice"
+        android:dividerHeight="0.5dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/language_item"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_set_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_arrow_forward_black_24dp"
+        app:backgroundTint="#FF0000" />
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="samples.akhilesh.localizationsample.ui.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_first_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_screen"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/btn_new_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="@string/new_screen"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_change_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_language"
+        android:layout_below="@+id/txt_first_screen"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>

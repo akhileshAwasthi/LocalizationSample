@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="second_screen">दूसरी स्क्रीन </string>
+    <string name="new_screen">नयी  स्क्रीन</string>
+    <string name="first_screen">"पहली स्क्रीन "</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="txt_select_lang_one"> भाषा का चयन करें \n</string>
+    <string name="txt_select_lang_two">आप इसे बाद में बदल सकते हैं ।</string>
+    <string name="app_name">"लोकलाइजेशन सैंपल  "</string>
+    <string name="pref_app_settings_title">एप सेटिंग्स </string>
+    <string name="change_language">भाषा बदलें (अ/A)</string>
+    <string name="save_language">सेव करें</string>
+</resources>
